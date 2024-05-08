@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* CSS for Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* CSS for Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* CSS for Sections */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        /* Example Animation */
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .animated {
+            animation: slideInFromLeft 1s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+    </header>
+
+    <section>
+        <div class="content animated">
+            <h2>Section 1</h2>
+            <p>This is the first section of our landing page.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="content animated">
+            <h2>Section 2</h2>
+            <p>This is the second section of our landing page.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="content animated">
+            <h2>Section 3</h2>
+            <p>This is the third section of our landing page.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Landing Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
